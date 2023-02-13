@@ -10,8 +10,9 @@
           <template slot="title">{{ item.name }}</template>
         </el-menu-item-group>
       </el-menu>
-    </el-col> 
+    </el-col>
   </el-row>
+
 </template>
 
 <script>
@@ -34,13 +35,6 @@ export default {
           label: 'Dashboard',
           icon: 's-help',
           url: '/Dashboard',
-          children: {
-            path: '/Dashboard',
-            name: 'Option',
-            label: 'DashboardChildren',
-            icon: 's-help',
-            url: '/Dashboard/Children',
-          }
         },
         {
           path: '/',
