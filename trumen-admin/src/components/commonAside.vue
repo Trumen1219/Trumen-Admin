@@ -12,7 +12,6 @@
       </el-menu>
     </el-col>
   </el-row>
-
 </template>
 
 <script>
@@ -20,10 +19,10 @@ export default {
   name: 'commonAside',
   computed: {
     hasChild() {
-      return this.menu.filter(item => item.children)
+      return this.menu.filter(item => item.children);
     },
     noChild() {
-      return this.menu.filter(item => !item.children)
+      return this.menu.filter(item => !item.children);
     }
   },
   data() {
