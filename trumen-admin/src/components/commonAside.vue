@@ -22,7 +22,7 @@ export default {
       return this.menu.filter(item => item.children);
     },
     noChild() {
-      return this.menu.filter(item => !item.children);
+      return this.menu.filter(item => !item.children); 
     }
   },
   data() {
